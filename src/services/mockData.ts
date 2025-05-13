@@ -1,0 +1,118 @@
+import { Event } from '../types';
+
+export const mockEvents: Event[] = [
+  {
+    id: '1',
+    title: 'Sydney Opera House Symphony',
+    description: 'Experience the Sydney Symphony Orchestra performing classical masterpieces in the iconic Sydney Opera House.',
+    date: '2025-05-15',
+    time: '19:30',
+    venue: 'Sydney Opera House',
+    address: 'Bennelong Point, Sydney NSW 2000',
+    category: 'Music',
+    imageUrl: 'https://images.pexels.com/photos/1123972/pexels-photo-1123972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.sydneyoperahouse.com',
+    price: '$85 - $120',
+    source: 'Sydney Opera House'
+  },
+  {
+    id: '2',
+    title: 'Vivid Sydney Light Festival',
+    description: 'Annual festival of light, music and ideas featuring stunning light installations throughout the city.',
+    date: '2025-05-22',
+    time: '18:00',
+    venue: 'Circular Quay',
+    address: 'Circular Quay, Sydney NSW 2000',
+    category: 'Festivals',
+    imageUrl: 'https://images.pexels.com/photos/1538177/pexels-photo-1538177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.vividsydney.com',
+    price: 'Free',
+    source: 'Destination NSW'
+  },
+  {
+    id: '3',
+    title: 'Sydney Food Festival',
+    description: 'A celebration of Sydney\'s diverse culinary scene with top chefs, food stalls, and cooking demonstrations.',
+    date: '2025-05-18',
+    time: '11:00',
+    venue: 'The Rocks',
+    address: 'The Rocks, Sydney NSW 2000',
+    category: 'Food',
+    imageUrl: 'https://images.pexels.com/photos/5638732/pexels-photo-5638732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.sydneyfoodfestival.com.au',
+    price: '$25',
+    source: 'Sydney Food Festival'
+  },
+  {
+    id: '4',
+    title: 'Sydney Harbour Bridge Climb',
+    description: 'Guided climb to the summit of the Sydney Harbour Bridge for breathtaking panoramic views of the city.',
+    date: '2025-05-20',
+    time: '09:00',
+    venue: 'Sydney Harbour Bridge',
+    address: '3 Cumberland St, The Rocks NSW 2000',
+    category: 'Adventure',
+    imageUrl: 'https://images.pexels.com/photos/2845013/pexels-photo-2845013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.bridgeclimb.com',
+    price: '$308 - $403',
+    source: 'BridgeClimb Sydney'
+  },
+  {
+    id: '5',
+    title: 'Art Gallery of NSW Exhibition',
+    description: 'Special exhibition featuring contemporary Australian artists and their works.',
+    date: '2025-05-10',
+    time: '10:00',
+    venue: 'Art Gallery of NSW',
+    address: 'Art Gallery Rd, Sydney NSW 2000',
+    category: 'Arts',
+    imageUrl: 'https://images.pexels.com/photos/20967/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.artgallery.nsw.gov.au',
+    price: '$18',
+    source: 'Art Gallery of NSW'
+  },
+  {
+    id: '6',
+    title: 'Sydney Comedy Festival',
+    description: 'Annual comedy festival featuring local and international comedians performing across multiple venues in Sydney.',
+    date: '2025-05-25',
+    time: '19:00',
+    venue: 'Factory Theatre',
+    address: '105 Victoria Rd, Marrickville NSW 2204',
+    category: 'Arts',
+    imageUrl: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.sydneycomedyfest.com.au',
+    price: '$35 - $45',
+    source: 'Sydney Comedy Festival'
+  },
+  {
+    id: '7',
+    title: 'Bondi to Coogee Coastal Walk Festival',
+    description: 'A day of activities along the famous coastal walk including art installations, music, and food stalls.',
+    date: '2025-05-30',
+    time: '08:00',
+    venue: 'Bondi Beach',
+    address: 'Bondi Beach, NSW 2026',
+    category: 'Community',
+    imageUrl: 'https://images.pexels.com/photos/1705254/pexels-photo-1705254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.bonditocoogeewalk.com',
+    price: 'Free',
+    source: 'Waverley Council'
+  },
+  {
+    id: '8',
+    title: 'Sydney Writers\' Festival',
+    description: 'Annual literary festival featuring talks, panels, and workshops with acclaimed authors from around the world.',
+    date: '2025-05-12',
+    time: '10:00',
+    venue: 'Carriageworks',
+    address: '245 Wilson St, Eveleigh NSW 2015',
+    category: 'Arts',
+    imageUrl: 'https://images.pexels.com/photos/159866/books-book-pages-story-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    ticketUrl: 'https://www.swf.org.au',
+    price: '$15 - $30',
+    source: 'Sydney Writers\' Festival'
+  },
+];
+
+export const venues = Array.from(new Set(mockEvents.map(event => event.venue)));

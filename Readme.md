@@ -2,8 +2,7 @@
 
 A modern web app that automatically scrapes and displays events happening in Sydney, Australia. Built using open-source tools including React, Vite, and TailwindCSS.
 
-## 🌐 Live Preview
-[![Live Preview](https://lively-dasik-4f49dd.netlify.app/)
+## 🌐 Live Preview  :  https://lively-dasik-4f49dd.netlify.app/
 
 
 ---

@@ -67,6 +67,6 @@ npm run dev
 
 ## DEMO
 
-![Homepage Screenshot](https://github.com/Piyush972004/real-car-detailing-website/blob/14ee4affffe47684ce7e3faf851e138ccf56eb9c/img/Screenshot%202025-05-12%20170431.png)
+![Homepage Screenshot](https://github.com/Piyush972004/SydEventSpot/blob/c60cb171c12ebca5f319293405fee603a9e37a9d/public/Screenshot%202025-05-13%20185512.png)
 
-![Homepage Screenshot](https://github.com/Piyush972004/real-car-detailing-website/blob/14ee4affffe47684ce7e3faf851e138ccf56eb9c/img/Screenshot%202025-05-12%20170449.png)
+![Homepage Screenshot](https://github.com/Piyush972004/SydEventSpot/blob/c60cb171c12ebca5f319293405fee603a9e37a9d/public/Screenshot%202025-05-13%20185524.png)
